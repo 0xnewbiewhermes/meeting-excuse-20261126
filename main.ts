@@ -3,7 +3,7 @@ import { dirname } from 'node:path';
 
 const OUTPUT_PATH = '/output/entry.txt';
 const EXCUSE =
-  "I'd join the Zoom, but my camera only turns on when someone is actually making a decision, and it's been dark since Q2.";
+  "Can't make the sync—my calendar flagged a 'quick 15-minute alignment' with 19 attendees as a hostage situation.";
 
 if (EXCUSE.length === 0 || EXCUSE.length > 200) {
   throw new Error(`Invalid excuse length: ${EXCUSE.length}`);
